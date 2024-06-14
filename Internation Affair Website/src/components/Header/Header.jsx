@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { GrClose } from "react-icons/gr";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { HomeDropDown,InternationalAdmissionDropdown,ScholarshipDropdown,VisaAndImmigrationDropdown,StudentsDropdown,PartnersDropdown,CampusDropdown } from "./Dropdown";
+import { Contact,HomeDropDown,InternationalAdmissionDropdown,ScholarshipDropdown,VisaAndImmigrationDropdown,StudentsDropdown,PartnersDropdown,CampusDropdown } from "./Dropdown";
 
 function Header() {
     const [showMenu,setShowMenu]=useState('');
@@ -12,6 +12,7 @@ function Header() {
     const [partnersOpen, setpartnersOpen] = useState(false);
     const [campusOpen, setcampusOpen] = useState(false);
     const [studOpen, setstudOpen] = useState(false);
+    const [contact, setcontactOpen] = useState(false);
   return (
     <header className="text-xs w-screen border-cyan-300 flex flex-row items-center shadow-md justify-end sm:justify-around  border-b-2 bg-white">
       <a
@@ -45,9 +46,13 @@ function Header() {
            Partners
            <PartnersDropdown isOpen={partnersOpen}/>
         </a>
-        <a href="#"  onMouseEnter={() => setcampusOpen(true)} onMouseLeave={() => setcampusOpen(false)} className="h-4 font-normal border-cyan-500 hover:text-cyan-500  text-xs relative z-10 bg-gray-white  px-2  transition-all duration-300" >
+        <a href="#"  onMouseEnter={() => setcampusOpen(true)} onMouseLeave={() => setcampusOpen(false)} className="h-4 font-normal  border-r-2 border-cyan-500 hover:text-cyan-500  text-xs relative z-10 bg-gray-white  px-2  transition-all duration-300" >
           Campus
           <CampusDropdown isOpen={campusOpen}/>
+        </a>
+        <a href="#"  onMouseEnter={() => setcontactOpen(true)} onMouseLeave={() => setcontactOpen(false)} className="h-4 font-normal border-cyan-500 hover:text-cyan-500  text-xs relative z-10 bg-gray-white  px-2  transition-all duration-300" >
+          Contact Us
+          <Contact isOpen={contact}/>
         </a>
       </nav>
     </header>

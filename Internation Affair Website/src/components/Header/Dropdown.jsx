@@ -324,4 +324,43 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
     );
   };
 
-export default {HomeDropDown,InternationalAdmissionDropdown,ScholarshipDropdown,VisaAndImmigrationDropdown,StudentsDropdown,PartnersDropdown,CampusDropdown}
+
+  export const  Contact = ({ isOpen }) => {
+    return (
+      isOpen && (
+        <div
+          className="origin-top-right absolute right-0 mt-2 w-40 font-thin shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+          role="menu"
+          aria-orientation="vertical"
+          aria-labelledby="options-menu"
+        >
+          <div className="py-1" role="none">
+            <NavLink to="/virtual-tour">
+            <a
+              href="/call"
+              className="block px-4 py-2 font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2 border-cyan-600"
+              role="menuitem"
+            >
+             Email           
+             </a>
+            </NavLink>
+            <NavLink to="/facilities">
+            <a
+              href="/call"
+              className="block px-4 py-2 font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2"
+              role="menuitem"
+            >
+              Call Us
+            </a>
+            </NavLink>
+
+          </div>
+        </div>
+      )
+    );
+  }
+
+
+
+
+export default {Contact,HomeDropDown,InternationalAdmissionDropdown,ScholarshipDropdown,VisaAndImmigrationDropdown,StudentsDropdown,PartnersDropdown,CampusDropdown}
