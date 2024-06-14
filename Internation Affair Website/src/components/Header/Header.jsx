@@ -13,14 +13,14 @@ function Header() {
     const [campusOpen, setcampusOpen] = useState(false);
     const [studOpen, setstudOpen] = useState(false);
   return (
-    <header className="border-b-2 border-cyan-300 flex flex-row items-center shadow-md justify-end sm:justify-around  border-b-2 bg-white">
+    <header className="text-xs  w-full border-cyan-300 flex flex-row items-center shadow-md justify-end sm:justify-around  border-b-2 bg-white">
       <a
         href="/"
         className=""
       >
         <img src="https://www.iiitd.ac.in/sites/default/files/images/logo/logo.jpg" className="w-30 h-10" alt="" />
       </a>
-      <nav className="border-cyan-500 text-sm text-xs hidden sm:flex flex-end justify-between items-center gap-4 font-semibold">
+      <nav className="border-cyan-500  text-xs hidden sm:flex flex-end justify-between items-center gap-4 font-semibold">
         <h6 href="#" onMouseEnter={() => sethomeOpen(false)} onMouseLeave={() => sethomeOpen(false)} className=" font-normal hover:shadow-xl  relative text-xs z-10 bg-gray-white py-2 px-2  transition-all duration-300 ">
           Home
           <HomeDropDown isOpen={homeOpen}/>

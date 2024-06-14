@@ -1,5 +1,5 @@
 import Header from "./Header/Header";
-import Footer from "./Footer/Footer";
+import { Footer } from "./Footer/Footer";
 import Application from "../Pages/Application";
 import DesignSummerSchool from "../Pages/DesignSummerSchool";
 import FAQs from "../Pages/FAQs";
