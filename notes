@@ -1,0 +1,479 @@
+It looks like you're interested in understanding React and how to learn it effectively. Let's clarify and improve the notes you've provided.
+
+### React Roadmap
+
+**1) Why Use React?**
+
+React is a popular JavaScript library used for building user interfaces. Here's why you should consider using React:
+
+- **Declarative**: React makes it easy to create interactive UIs by designing simple views for each state in your application.
+  
+- **Component-Based**: React uses a component-based architecture, which promotes reusability and modularity.
+  
+- **Virtual DOM**: React efficiently updates and renders components by using a virtual DOM, leading to improved performance.
+  
+- **Community and Ecosystem**: React has a vast ecosystem and strong community support, with many libraries and tools built around it.
+
+**2) Learning React**
+
+There are two primary methods to learn React effectively:
+
+- **Project-Based**: Learn by building real-world projects. This approach helps reinforce concepts and provides practical experience.
+
+- **Concept-Based**: Focus on understanding React concepts like components, state management, and lifecycle methods. This approach is foundational and helps in building a strong understanding of how React works.
+
+**3) Key Topics in React**
+
+To become proficient in React, you should focus on mastering the following core topics:
+
+- **State and UI Manipulation**: Understanding how to manage component state and update the UI based on state changes.
+
+- **Component Reusability**: Utilizing component composition and props to create reusable and modular components.
+
+- **Managing State Changes (using hooks)**: Learn how to use React hooks like `useState` and `useEffect` to manage component state and lifecycle.
+
+**4) Additional Add-Ons to React**
+
+Extend your React skills by exploring these additional tools and concepts:
+
+- **Router**: Use React Router for client-side routing in single-page applications.
+
+- **State Management**: Implement state management solutions like Redux, Zustand, or the Context API for managing global application state.
+
+- **Class-Based Components**: Understand legacy code and class-based component patterns (though React now primarily uses function components and hooks).
+
+- **Building Full-Stack Apps**: Explore building full-stack applications using React with backends like Firebase, Appwrite, or Superbase.
+
+**Resources for Learning React**
+
+- **Online Courses and Tutorials**: Platforms like Udemy, Coursera, and freeCodeCamp offer comprehensive React courses for beginners and advanced learners.
+
+- **Official React Documentation**: Refer to the official React documentation and guides available on reactjs.org.
+
+- **Open Source Projects**: Contribute to or study open-source React projects to gain practical experience and exposure to best practices.
+
+**Improving Your Notes**
+
+Here's an improved version of the notes for better clarity:
+
+---
+
+**React Roadmap**
+
+**1) Why Use React?**
+
+- Declarative and efficient for building user interfaces.
+- Component-based architecture encourages reusability.
+- Virtual DOM for efficient updates and performance.
+- Large ecosystem and community support.
+
+**2) Learning React**
+
+- **Project-Based Learning**: Build real-world projects to reinforce concepts.
+  
+- **Concept-Based Learning**: Understand React fundamentals like components, state management, and hooks.
+
+**3) Key Topics in React**
+
+- **State and UI Manipulation**: Manage component state and update the UI accordingly.
+  
+- **Component Reusability**: Create reusable components using props.
+  
+- **Managing State Changes**: Use React hooks to manage component state and side effects.
+
+**4) Additional Add-Ons to React**
+
+- **Router**: Implement client-side routing with React Router.
+  
+- **State Management**: Use Redux, Zustand, or Context API for managing application state.
+  
+- **Class-Based Components**: Understand legacy code and class component patterns.
+  
+- **Building Full-Stack Apps**: Create full-stack applications using React with various backend services.
+
+**Resources for Learning React**
+
+- Online courses, tutorials (Udemy, Coursera, freeCodeCamp).
+- Official React documentation (reactjs.org).
+- Open-source projects for practical experience and best practices.
+
+---
+
+Feel free to refine and expand on these notes based on your learning goals and preferences. Happy coding with React!
+
+
+
+we get two kinds of attachment with react
+
+React Dom
+React Native
+
+React library basically used to make a website and mobile apps 
+
+
+To make a react project there are two three ways 
+
+npm(node package manager)
+npx(node package executer) 
+npx create-react-app this is a sw we can make a new project using it , 01basicreact 
+ npx create-react-app 01basicreact
+
+
+
+ TO run a project 
+
+ analyze package.json na dgo through every details discussed 
+ npm run start it starts a server and will give you the address
+ vew page source (we'll se seo purpose is very difficult in react)
+ npm run build (we get a build folder and eveyrthing get converted to js and html and css and all these will be served to used)
+
+
+
+ however create react app is slower and not good so use vit
+
+ npm create vite@latest //create a vite prpject which is latest now just install everything and get started select everything 
+
+now get inside and start reading the package.json and go through every this and start the project or build it according to you, now if you see the dependency we say that we have received botht he script and then the testing librayr and everything 
+,then we have dev dependencies which is used only in development and not during production, now run it  
+
+get inside folder 
+npm i to insall node dependencies
+run using npm run dev //we get url and everything 
+run using npm run start //we can start the app 
+
+
+
+
+//basics 
+react is not platform dependent
+prefer vs code as a code editor 
+next use node js which gives us enviorment to execute the code in the pc 
+open terminal node -v , npm -v whatever it is does'nt matter 
+next we have a react documentation
+make new folder chai aur react you will get every code in hitesh github 
+just run the commandas and setup a github 
+update repo and setup everything and make readme.md 
+gitinit 
+
+
+
+npx create next app 
+npx creae remix 
+
+//this default document s not beginner friendly so prefer vite and parcel 
+
+
+//react is a libaray
+
+#react has lots of concept on how to make a lobrary and make a differetn kinds of app
+1)react native = react and react native 
+2)react dom = react and react dom
+
+
+lets jump into project
+basic way is npx(along with node we had npm node which is a packae manager)
+next we have is npx (create react app is a utility usign this we can make new project)
+
+npx create-react-app 01basic //hard way takes a lot of time to do the job bulky utility adn time consuming  so prefer vite and parcel 
+could also add react in existing project 
+
+
+//always first open package.json 
+# you could see in the dependencies we have react and react dom this is main library 
+# next we have react scripts web vitals 
+# next we have a lot of scripts which runs scrtipts start (developmetn time running )
+# next we have a build using in deployed time 
+
+
+//linting 
+# helps us in improving the error or best approach to run 
+
+//to start a project we need to run the start script 
+# to run the start scripts 
+-> go to the folder 
+->package.json
+-> run start script 
+->run start 
+->start 
+->view page source and everything 
+
+#next we have npm run build 
+->we get a build folder and we have all the static assets inside, now when we deploy it in the production this 
+->is what is usually served 
+
+
+
+
+
+
+# All this was done when we made project without vite 
+
+
+
+
+
+# USING VITE
+->npm create vite at latest 
+->now vite is a bundler but lighter 
+->npm create vite@latest 
+->enter project name 
+->use framework for this select react use javacript 
+->project ready 
+->but we did'nt get node modulse so we need to install it 
+-> npm i  (downloads node modules)
+-> inside package.json we have a dev dependencies this contains dependency which is using only during the dev
+
+
+# now run using 
+->npm run dev    //dev is key inside the package.json
+
+
+
+
+# First start with react app made without the vite 
+->get to the src folder start deleting fidlder
+
+Delete
+setupText.js 
+reportwebvitals.js
+logo.svg 
+app.text.js 
+app.css 
+
+
+not deleted
+->index.js //remove unecessary stuffs
+->app.js  //remove logo app.css and everything  explort and return h1 tage inside this 
+->write APP inside the index.js <App/>
+
+
+# Project made using vite 
+
+delete
+    ->logo.svg
+    ->app.css
+    ->index.css
+//framework me name is important but in lobrary it is not that important , 
+
+//go inside inside main.jsx 
+go to main.jsx and use <App/>
+
+//go inside app.jsx
+return <h1>Siddhant Jha</h1>
+
+
+again run by seeing package.json
+
+
+# lecture 2nd Hour 
+
+->Folder structure
+->How injection is happening 
+->whenever javacript runs then we need to make it come to html and call it 
+->so we need to make it call inside html to manipulate html 
+
+
+# my-react app(not using vite)
+public>index> main page which gets loaded that is why it is called single page application 
+
+
+# who attaches the html with js 
+inside package.json we have react script it , it is responsible for loading 
+create root expects ki app html se mujhe aik element select karke dedo 
+
+
+
+# LETS SEE HOW VITE DOES IT 
+does not have react scripts then who will inject it in the main app 
+index.html stays outside no problem 
+direct load the javscript , usns src tag insted of using script in the package.json 
+
+So basically we have made a function which returns html and we have exported this function and we have given it to main.jsx to render it 
+kya mai ise app ke ander bhi kar sakta hu ??
+
+
+technically jsx says it only wants one element but if we want to return a lot of element in jsx then we need to
+put it in dev so it is quiet illogical so we basically remove the div name and just put <> </>  we call it a fragment 
+
+
+notes
+->when making a component all the function that we are exporting and using capitalized name 
+->name all the file as capitalized along with fucntion name 
+->some library will force us to name the file as jsx like vite and parcel 
+->if html is getting returned from a file name it as jsx
+->we could also delare a fucntion insid emain.jsx 
+
+
+# custom react folder 
+->we have made our custom render function which keeps on makeing a element 
+->in app.jsx in normal vite app we have made a App a function 
+->this app function gets normally converted to a tree which is then parsed and then given to render function 
+->if it is a funtion put it inside a <App/>  if its not a function but just a object named as customElement just put the name but it would crreate a function because the render function does not know how to set attribute because the functom object which we have made we could have used some diff attribute name 
+->now on using <App> inside a render every framework uses a bundler  syntax conversion from html to object is done by bundler called as parsing into a tree
+->we could also use App() not good optimized 
+->Now if we make a react element in terms of object than 
+->inside render if we directly pass(by using just name) it it would save one step of compiler isi'nt it ??
+->No, this problem is caused by 
+->beacuse render function ka aik tarika hai kaise argument dena hai kaise execute karna hai , kyoki iska aik syntax ai ki mai object kaise accept karta hu 
+->make another object const anotherelement=(<a href=""> </a>) replace naother element insdie the render function 
+
+
+ 
+# virtual dom
+React does not use virtual dom usually now a days.
+
+# lets read an article 
+
+create root: what does this do behind the scene 
+
+->Behind the scene it creates a dom like structure , then aapke main dom ko aur apne dom ko compare karte hai aur sirf un nhi chizo k update karta hai jo zaruri hai, but browser pura dom ko update karta hai (page load ke wakt par ) this is called page reload , lekin virtual dom ke andar aap pura dom ko  track aur trace kar skate ho tree like structure pe aur jo jo value change hui hai sirf usko dom se niakal ke sirf 
+usko update kar skate ho original dom pe , but suppoise some element are network dependent , to reduce redundatn intermidiate update 
+so we use optimised algoritm so har ui ko instantenaeously update karna zaruri nai hai. react behinde the scene uses virtual dom.
+
+
+# Reconciliation is the algorihtm behin what is popularly understood as the virtual dom
+
+
+
+
+# Props
+
+
+
+# Tailwind CSS 
+go to tailwind for vite website and doo all the things then go to the dev ui to get the componenets and make yhour componenets 
+once we make a cad componenets why not keep it in a seprate file and reuse it alternatively 
+,generally what we do is we keep html and css sepratly, but react keeps everything at once and seprate things based on what they do 
+and not on what technology they work on 
+
+
+
+# routing , State mgt 
+Now we will install react router dom go to website for react router dom 
+And now install npm install react router dom 
+make a componenet folder and inside it make a folder for seprte component and inside each of these
+folder  make a react file for each component '
+when you install react outer dom to jaise aapko react ke sath 
+useaffext, alag alag chize mnilti hai to react router dom ke sath bhi kuch chize milti hai to 
+
+import react router dom link and navlink
+link is used in place of a tag because a tag ki wajeh se pura page relode hota hai , navlihnk ham lete hai kyoki ye hame additional chize deta hai jaise link ki tarah ham jaga jaise ham html me href likhte hai vaisehi yaha "to" likhenge 
+
+the structure of navlink classname is quiet different 
+<!-- <NavLink
+ className={() =>
+ `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+ }>
+Home </NavLink> -->
+here we can see that for className we have defined a function 
+ inside these function we have used several tailwind classes in backticks
+ because ham navlink ke andar kai bar aisi classes change karenge 
+ it will help us in change these classes ligh highlighted and non hgihlighter 
+ while changing , this funcioton provides us the isACtive variable
+ and we can inject it inside the className like this 
+ ${isActive? "":""} isActive means ham currently page me hai ya nahi 
+ vo router automatcally asssign kar dega based on url matching 
+
+
+ //add pages , add the functonality of isActive on botht the pacges using isActive logic 
+ //then fix the issue of the tailwind not working
+
+
+
+
+//in order to add the context APi for state management we could add it in the beginning or inn the end as well 
+//now we need to handle context api means we need to make a global variable  and us variable ke andar 
+//sara data jaega and since it is react we know that we need to add context api 
+//so we need to update state but it is difficult so there could be state mismatch , 
+
+part1)
+//make a context folder insdie it make a js file usercontext.js
+<!-- import React from "react";
+const UserContext=React.createContext()
+export default UserContext -->
+
+
+part2)Now context gives us provider so it provides varaibel so usercontext is also provider 
+    is user context pe ham wrapper lagaenge , sabehi components ko wrap karwa denge usercontext se 
+    for example 
+    <!-- <UserContext>
+    <Login/>
+    <Card> 
+    <Data/>
+    <Card/>
+    <Usercontext/> -->
+    //now user context has become a provider 
+    //means ab is components ko global ser context ka access mil jaega 
+    //ab vo sare components usercontext ke through sare states ka access le sakte hai 
+
+
+
+part3) now we will make a sepract file usercontextprovider.jsx inside it import react and usercontext 
+     //then 
+
+
+
+
+#Redux
+After installing redux toolkit we need to make a store 
+
+Store can be made and kept anywhere totally our choice so we make a folder name it app and make a store inside ti 
+
+2hr 16 mn for summary 
+
+
+
+
+# mega project 
+// we will use backend as a service like appwrite 
+//we will use its cloud, which gives us active 75k monthly
+//we could do a lot of work with appwrite 
+//appwrite provides backend as a complete service so it gives us auth service and lot others 
+//we could also see which all users are register etc 
+//tinymce is rich txt editor that allows to write post etc using various tools 
+//html react parser
+//react forms will be used to handle forms and has good error handlers 
+//will use enviorments variable to store the confidentail things 
+
+//packages
+react-redux @reduxjs/toolkit react-router dom appwrite 
+
+
+# STEPS
+//next we need to know about the env variable for keeping the secret and confinde ntial details like 
+//signup and login and DB credenatila etc 
+//yaha env alag hote hai waha prouduction me bhi aisehi access hota hai using dot operator 
+//always enviorments variable need to be presen int he root (where readme and  package.json is present )
+// Make .env file write REACT_APP_APPWRITE_URL="" then give a value text enviorment 
+//this enviorment variable ko ham kabhi shift nai karte hai to ye file ko add kardo gitignore me 
+//but we need the variable for reference so we will use the .env.sample which keeps the content of the .env but empty env this 
+//sample env wiill be shipped , we dont export variable of .env 
+
+
+# how to take access of enviorment variable 
+use console.log and print process.env.REACT_APP_APPWRITE_URL
+whenever you do anychanges in env variable restart the project 
+it will say process is not defined so we need to define 
+env variable file is defined under process 
+create react app - env variable ko react_App se start karna padega 
+since hamen vite ka use karre to vite_ ka name do har vairbale ko 
+them use karne ke liye use import.meta.env ratther than import.meta.env
+
+
+# better way to import env
+ make a folder congf
+ inside it make a js file conf.js
+
+
+ # vendor lockin 
+//code aisa likhna hia ki kal agar aaoki app ka authenticatioin system aaoko nikalna 
+//pade appwrite se bahar to bhi aapki application continuously chal pae 
+//aur itna zyada apaki puri aaplication me problem nai aae 
+//to yaha aik keywork utht hai sevices ki jo ki aik class hai 
+//vo services aisi banai jati hai jis mthod ko ham import karte hai aur un method ke andar kya ho raha use 
+//hame matlab nai hai just parameter pass karo function use karo and that's it 
+
+
+# first make a appwirte folde for the authenticationand the file handling services we will be usong 
+
+# next configure a store for this in order to manage a session 
