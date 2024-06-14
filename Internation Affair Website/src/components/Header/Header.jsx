@@ -13,42 +13,42 @@ function Header() {
     const [campusOpen, setcampusOpen] = useState(false);
     const [studOpen, setstudOpen] = useState(false);
   return (
-    <header className="text-xs  w-full border-cyan-300 flex flex-row items-center shadow-md justify-end sm:justify-around  border-b-2 bg-white">
+    <header className="text-xs w-screen border-cyan-300 flex flex-row items-center shadow-md justify-end sm:justify-around  border-b-2 bg-white">
       <a
         href="/"
         className=""
       >
-        <img src="https://www.iiitd.ac.in/sites/default/files/images/logo/logo.jpg" className="w-30 h-10" alt="" />
+        <img src="https://iiitd.ac.in/sites/default/files/style3colorsmall.png" className="w-60 h-10" alt="" />
       </a>
-      <nav className="border-cyan-500  text-xs hidden sm:flex flex-end justify-between items-center gap-4 font-semibold">
-        <h6 href="#" onMouseEnter={() => sethomeOpen(false)} onMouseLeave={() => sethomeOpen(false)} className=" font-normal hover:shadow-xl  relative text-xs z-10 bg-gray-white py-2 px-2  transition-all duration-300 ">
+      <nav className="border-cyan-800  text-xs hidden sm:flex flex-end justify-between items-center gap-2 font-semibold">
+        <a href="#" onMouseEnter={() => sethomeOpen(false)} onMouseLeave={() => sethomeOpen(false)} className="h-4 border-r-2 border-cyan-500 font-normal hover:text-cyan-500  relative text-xs z-10 bg-gray-white  px-2  transition-all duration-300 ">
           Home
           <HomeDropDown isOpen={homeOpen}/>
-        </h6>
-        <h6 href="#"  onMouseEnter={() => setintOpen(true)} onMouseLeave={() => setintOpen(false)} className="font-normal hover:shadow-xl  text-xs relative z-10 bg-gray-white py-2 px-2  transition-all duration-300" >
+        </a>
+        <a href="#"  onMouseEnter={() => setintOpen(true)} onMouseLeave={() => setintOpen(false)} className="h-4 border-r-2 border-cyan-500  font-normal hover:text-cyan-500  text-xs relative z-10 bg-gray-white  px-2  transition-all duration-300" >
           International Admission
           <InternationalAdmissionDropdown isOpen={intOpen}/>
-        </h6>
-        <h6 href="#"  onMouseEnter={() => setschOpen(false)} onMouseLeave={() => setschOpen(false)} className="font-normal hover:shadow-xl  text-xs relative z-10 bg-gray-white py-2 px-2  transition-all duration-300" >
+        </a>
+        <a href="#"  onMouseEnter={() => setschOpen(false)} onMouseLeave={() => setschOpen(false)} className="h-4 border-r-2 border-cyan-500 font-normal hover:text-cyan-500  text-xs relative z-10 bg-gray-white  px-2  transition-all duration-300" >
          Scholarship
          <ScholarshipDropdown isOpen={schOpen}/>
-        </h6>
-        <h6 href="#" onMouseEnter={() =>setvisaOpen(false)} onMouseLeave={() => setvisaOpen(false)} className="font-normal hover:shadow-xl  relative text-xs z-10 bg-gray-white py-2 px-2  transition-all duration-300">
+        </a>
+        <a href="#" onMouseEnter={() =>setvisaOpen(false)} onMouseLeave={() => setvisaOpen(false)} className="h-4 border-r-2 border-cyan-500 font-normal hover:text-cyan-500  relative text-xs z-10 bg-gray-white  px-2  transition-all duration-300">
          Visa and Immigration
          <VisaAndImmigrationDropdown isOpen={visaOpen}/>
-        </h6>
-        <h6 href="#"  onMouseEnter={() => setstudOpen(true)} onMouseLeave={() => setstudOpen(false)} className="font-normal hover:shadow-xl text-xs relative z-10 bg-gray-white py-2 px-2  transition-all duration-300" >
+        </a>
+        <a href="#"  onMouseEnter={() => setstudOpen(true)} onMouseLeave={() => setstudOpen(false)} className="h-4 border-r-2 border-cyan-500 font-normal hover:text-cyan-500 text-xs relative z-10 bg-gray-white  px-2  transition-all duration-300" >
         Students
         <StudentsDropdown isOpen={studOpen}/>
-        </h6>
-        <h6 href="#"  onMouseEnter={() => setpartnersOpen(true)} onMouseLeave={() => setpartnersOpen(false)} className="font-normal hover:shadow-xl  text-xs relative z-10 bg-gray-white py-2 px-2  transition-all duration-300" >
+        </a>
+        <a href="#"  onMouseEnter={() => setpartnersOpen(true)} onMouseLeave={() => setpartnersOpen(false)} className="h-4 border-r-2 border-cyan-500 font-normal hover:text-cyan-500  text-xs relative z-10 bg-gray-white  px-2  transition-all duration-300" >
            Partners
            <PartnersDropdown isOpen={partnersOpen}/>
-        </h6>
-        <h6 href="#"  onMouseEnter={() => setcampusOpen(true)} onMouseLeave={() => setcampusOpen(false)} className="font-normal hover:shadow-xl  text-xs relative z-10 bg-gray-white py-2 px-2  transition-all duration-300" >
+        </a>
+        <a href="#"  onMouseEnter={() => setcampusOpen(true)} onMouseLeave={() => setcampusOpen(false)} className="h-4 font-normal border-cyan-500 hover:text-cyan-500  text-xs relative z-10 bg-gray-white  px-2  transition-all duration-300" >
           Campus
           <CampusDropdown isOpen={campusOpen}/>
-        </h6>
+        </a>
       </nav>
     </header>
   );
