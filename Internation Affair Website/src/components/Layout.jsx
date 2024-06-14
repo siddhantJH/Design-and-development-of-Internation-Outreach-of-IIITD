@@ -1,6 +1,8 @@
 import React from "react";
 import {Header,Footer} from './index.js'
-import { Outlet } from 'react-router-dom'
+import { Outlet} from 'react-router-dom'
+
+
 
 
 function Layout()
@@ -13,3 +15,5 @@ function Layout()
         </>
     )
 }
+
+export default Layout
