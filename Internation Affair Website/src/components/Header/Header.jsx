@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { GrClose } from "react-icons/gr";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { Contact,HomeDropDown,InternationalAdmissionDropdown,ScholarshipDropdown,VisaAndImmigrationDropdown,StudentsDropdown,PartnersDropdown,CampusDropdown } from "./Dropdown";
+import {Contact,HomeDropDown,InternationalAdmissionDropdown,ScholarshipDropdown,VisaAndImmigrationDropdown,StudentsDropdown,PartnersDropdown,CampusDropdown } from "./Dropdown";
+import Search from "./Search";
+
 
 function Header() {
     const [showMenu,setShowMenu]=useState('');
@@ -14,13 +16,16 @@ function Header() {
     const [studOpen, setstudOpen] = useState(false);
     const [contact, setcontactOpen] = useState(false);
   return (
-    <header className="text-xs w-screen border-cyan-300 flex flex-row items-center shadow-md justify-end sm:justify-around  border-b-2 bg-white">
+    <header className="text-xs w-screen h-20 border-cyan-300 flex flex-row items-center shadow-md justify-end sm:justify-around  border-b-2 bg-white">
+      
       <a
         href="/"
         className=""
       >
+        
         <img src="https://iiitd.ac.in/sites/default/files/style3colorsmall.png" className="w-60 h-10" alt="" />
       </a>
+      <Search/>
       <nav className="border-cyan-800  text-xs hidden sm:flex flex-end justify-between items-center gap-2 font-semibold">
         <a href="#" onMouseEnter={() => sethomeOpen(false)} onMouseLeave={() => sethomeOpen(false)} className="h-4 border-r-2 border-cyan-500 font-normal hover:text-cyan-500  relative text-xs z-10 bg-gray-white  px-2  transition-all duration-300 ">
           Home
@@ -54,7 +59,9 @@ function Header() {
           Contact Us
           <Contact isOpen={contact}/>
         </a>
+        
       </nav>
+     
     </header>
   );
 }

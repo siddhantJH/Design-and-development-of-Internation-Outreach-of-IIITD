@@ -343,24 +343,19 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
             >
              Email           
              </a>
-            </NavLink>
-            <NavLink to="/facilities">
+          </NavLink>
+          <NavLink to="/facilities">
             <a
               href="/call"
-              className="block px-4 py-2 font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2"
+              className="block px-4 py-2 font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600"
               role="menuitem"
             >
-              Call Us
+            Call Us
             </a>
-            </NavLink>
-
+        </NavLink>
           </div>
         </div>
       )
     );
   }
-
-
-
-
 export default {Contact,HomeDropDown,InternationalAdmissionDropdown,ScholarshipDropdown,VisaAndImmigrationDropdown,StudentsDropdown,PartnersDropdown,CampusDropdown}

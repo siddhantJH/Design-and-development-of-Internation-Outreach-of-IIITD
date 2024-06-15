@@ -23,7 +23,7 @@ export {
     JointDegreeProgramme,
     OutgoingSemExc,
     VlsiSummerSchool,
-    Layout
+    Layout,
 }
 
 
