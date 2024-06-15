@@ -90,7 +90,7 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
     );
   };
 
-
+  //for future need 
   export const  ScholarshipDropdown = ({ isOpen }) => {
     return (
       isOpen && (
@@ -106,14 +106,14 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
               className="block px-4 py-2  text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2 border-cyan-600"
               role="menuitem"
             >
-              Option 1
+             Apply 
             </a>
             <a
               href="#"
               className="block px-4 py-2  text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2 border-cyan-600"
               role="menuitem"
             >
-              Option 2
+             Check Elligibility
             </a>
             <a
               href="#"
