@@ -48,7 +48,7 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
     return (
       isOpen && (
         <div
-          className="origin-top-right absolute right-0 mt-2 w-30 shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+          className="origin-top-left absolute font-normal right-0 mt-2 w-30 shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
           role="menu"
           aria-orientation="vertical"
           aria-labelledby="options-menu"
@@ -57,7 +57,7 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
                 <NavLink to="/application-process">
                 <a
                 href="#"
-                className="block px-4 font-thin py-2 text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600 border-b-2 border-cyan-600"
+                className="block px-4 py-2 hover-dropdown font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-cyan-600"
                 role="menuitem"
                 >
                 Application Process
@@ -67,7 +67,7 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
                 <NavLink to="/brochure">
                 <a
               href="#"
-              className="block px-4 py-2 font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2 border-cyan-600" 
+              className="block px-4 py-2 hover-dropdown font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600 border-cyan-600" 
               role="menuitem"
             >
               Information Brochure
@@ -77,7 +77,7 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
             <NavLink to="/FAQs">
             <a
               href="#"
-              className="block px-4 py-2 font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600"
+              className="block px-4 py-2 hover-dropdown font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600 border-cyan-600"
               role="menuitem"
             >
               FAQs
@@ -95,7 +95,7 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
     return (
       isOpen && (
         <div
-          className="origin-top-left absolute  right-0 mt-2 w-30  shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+          className="origin-top-left absolute font-normal right-0 mt-2 w-30  shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
           role="menu"
           aria-orientation="vertical"
           aria-labelledby="options-menu"
@@ -103,21 +103,21 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
           <div className="py-1" role="none">
             <a
               href="#"
-              className="block px-4 py-2  text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2 border-cyan-600"
+              className="block px-4 py-2 hover-dropdown text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600   border-cyan-600"
               role="menuitem"
             >
              Apply 
             </a>
             <a
               href="#"
-              className="block px-4 py-2  text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2 border-cyan-600"
+              className="block px-4 py-2 hover-dropdown text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600   border-cyan-600"
               role="menuitem"
             >
              Check Elligibility
             </a>
             <a
               href="#"
-              className="block px-4 py-2  text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600"
+              className="block px-4 py-2 hover-dropdown text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600   border-cyan-600"
               role="menuitem"
             >
               Option 3
@@ -132,7 +132,7 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
     return (
       isOpen && (
         <div
-          className="origin-top-right absolute right-0 mt-2 w-30  shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+          className="origin-top-right absolute hover-dropdown right-0 mt-2 w-30  shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
           role="menu"
           aria-orientation="vertical"
           aria-labelledby="options-menu"
@@ -140,21 +140,21 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
           <div className="py-1" role="none">
             <a
               href="#"
-              className="block px-4 py-2  text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2 border-cyan-600"
+              className="block px-4 py-2 hover-dropdown text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-cyan-600"
               role="menuitem"
             >
               Option 1
             </a>
             <a
               href="#"
-              className="block px-4 py-2  text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2 border-cyan-600"
+              className="block px-4 py-2 hover-dropdown text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-cyan-600"
               role="menuitem"
             >
               Option 2
             </a>
             <a
               href="#"
-              className="block px-4 py-2  text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2"
+              className="block px-4 py-2 hover-dropdown text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600 "
               role="menuitem"
             >
               Option 3
@@ -179,7 +179,7 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
             <NavLink to="/testimony">
             <a
               href="#"
-              className="block px-4 py-2 font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2 border-cyan-600" 
+              className="block px-4 py-2 hover-dropdown font-thin text-thin text-gray-700  hover:bg-gray-100 hover:text-cyan-600  border-cyan-600" 
               role="menuitem"
             >
               International Student Testimony
@@ -188,7 +188,7 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
             <NavLink to="student-support">
             <a
               href="#"
-              className="block px-4 py-2 font-thin  text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2 border-cyan-600"
+              className="block px-4 py-2 font-thin hover-dropdown text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-cyan-600"
               role="menuitem"
             >
               Internation Student Support
@@ -200,7 +200,7 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
             <NavLink to="/blog">
             <a
               href="#"
-              className="block px-4 py-2 font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  "
+              className="block px-4 py-2 hover-dropdown font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  "
               role="menuitem"
             >
               Blog
@@ -217,7 +217,7 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
     return (
       isOpen && (
         <div
-          className="origin-top-right absolute right-0 mt-2 w-40 shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+          className="origin-top-right  absolute right-0 mt-2 w-40 shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
           role="menu"
           aria-orientation="vertical"
           aria-labelledby="options-menu"
@@ -226,7 +226,7 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
             <NavLink to="/joint-program">
             <a
               href="#"
-              className="block px-4 py-2 font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2 border-cyan-600"
+              className="block px-4 py-2 hover-dropdown font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-cyan-600"
               role="menuitem"
             >
               Join Degree Program
@@ -236,7 +236,7 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
             <NavLink to="/summer-exchange">
             <a
               href="#"
-              className="block px-4 py-2 font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2 border-cyan-600"
+              className="block px-4 py-2 hover-dropdown font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600 border-cyan-600"
               role="menuitem"
             >
               Summer Exchange 
@@ -246,7 +246,7 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
             <NavLink to="/summer-program">
             <a
               href="#"
-              className="block px-4 py-2 font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2 border-cyan-600"
+              className="block px-4 py-2 hover-dropdown font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600 border-cyan-600"
               role="menuitem"
             >
               Summer Program
@@ -256,7 +256,7 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
             <NavLink to="/winter-program">
             <a
               href="#"
-              className="block px-4 py-2 font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2 border-cyan-600"
+              className="block px-4 py-2 hover-dropdown font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-cyan-600"
               role="menuitem"
             >
               Winter Program
@@ -266,7 +266,7 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
             <NavLink to="/faculty-development">
             <a
               href="#"
-              className="block px-4 py-2 font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  "
+              className="block px-4 py-2 hover-dropdown font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  "
               role="menuitem"
             >
               Faculty Development Program
@@ -292,16 +292,16 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
             <NavLink to="/virtual-tour">
             <a
               href="#"
-              className="block px-4 py-2 font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2 border-cyan-600"
+              className="block px-4 py-2 font-thin hover-dropdown text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-cyan-600"
               role="menuitem"
             >
-             Virtual Campus Tour            </a>
+             Virtual Campus Tour</a>
             </NavLink>
             
             <NavLink to="/facilities">
             <a
               href="#"
-              className="block px-4 py-2 font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2 border-cyan-600"
+              className="block px-4 py-2 font-thin hover-dropdown text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-cyan-600"
               role="menuitem"
             >
               Hostell and Mess Facilities
@@ -311,7 +311,7 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
            <NavLink to="wellbeing">
            <a
               href="#"
-              className="block px-4 py-2  font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  "
+              className="block px-4 py-2 hover-dropdown font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  "
               role="menuitem"
             >
               Wellbeing Cell
@@ -329,33 +329,33 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
     return (
       isOpen && (
         <div
-          className="origin-top-right absolute right-0 mt-2 w-40 font-thin shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+          className="block origin-top-right absolute right-0 mt-2 w-40 font-thin shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
           role="menu"
           aria-orientation="vertical"
           aria-labelledby="options-menu"
         >
           <div className="py-1" role="none">
-            <NavLink to="/virtual-tour">
+            <NavLink to="/Call">
             <a
-              href="/call"
-              className="block px-4 py-2 font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-b-2 border-cyan-600"
+              href="#"
+              className="block px-4 py-2 font-thin hover-dropdown text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-cyan-600"
               role="menuitem"
             >
-             Email           
+             Call us
              </a>
-          </NavLink>
-          <NavLink to="/facilities">
+            </NavLink>
+            <NavLink to="/Email">
             <a
-              href="/call"
-              className="block px-4 py-2 font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600"
+              href="#"
+              className="block px-4 py-2 font-thin hover-dropdown text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-cyan-600"
               role="menuitem"
             >
-            Call Us
+              Email us
             </a>
-        </NavLink>
+            </NavLink>
           </div>
         </div>
       )
     );
-  }
+  };
 export default {Contact,HomeDropDown,InternationalAdmissionDropdown,ScholarshipDropdown,VisaAndImmigrationDropdown,StudentsDropdown,PartnersDropdown,CampusDropdown}
