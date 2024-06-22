@@ -107,4 +107,4 @@ const Testimonial15 = () => {
 		</section>
 	);
 };
-export default Testimonial15
+export default Testimonial15;

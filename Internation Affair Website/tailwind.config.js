@@ -5,7 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      'regal-blue': '#55AD9B'
+    },
   },
   plugins: [],
 }

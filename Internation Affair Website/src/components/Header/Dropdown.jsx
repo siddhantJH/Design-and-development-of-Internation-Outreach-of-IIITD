@@ -48,7 +48,7 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
     return (
       isOpen && (
         <div
-          className="origin-top-left absolute font-normal right-0 mt-2 w-30 shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+          className="origin-top-left absolute font-normal mt-2 shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
           role="menu"
           aria-orientation="vertical"
           aria-labelledby="options-menu"
@@ -57,10 +57,10 @@ export const  InternationalAdmissionDropdown = ({ isOpen }) => {
                 <NavLink to="/application-process">
                 <a
                 href="#"
-                className="block px-4 py-2 hover-dropdown font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-cyan-600"
+                className="py-2 hover-dropdown font-thin text-thin text-gray-700 hover:bg-gray-100 hover:text-cyan-600  border-cyan-600"
                 role="menuitem"
                 >
-                Application Process
+                Application  Process
                 </a>
                 </NavLink>
 
