@@ -43,7 +43,7 @@ function Home() {
             {/* about us section */}
             <div  style={{ height: '60vh'}} className="flex flex-row">
               <div className="w-1/2 flex-col flex ">
-                <h2 className="grow content-end text-5xl font-old-english h-1 text-[#219C90]">About our Institute</h2>
+                <h2 className="grow content-end text-5xl font-roboto h-1 text-[#219C90]">About our Institute</h2>
                 <p className="font-normal text-2xl grow content-start mx-auto px-20 py-5 font-roboto text-[#1A2130]">Indraprastha Institute of Information Technology, Delhi (aka. IIIT-Delhi or IIIT-D)
                    was created as a State University by an act of Govt. of NCT of Delhi (The IIIT Delhi Act, 2007)
                     empowering it to do research and development, and grant degrees. In a relatively short time,

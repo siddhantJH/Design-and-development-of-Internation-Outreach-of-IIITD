@@ -69,7 +69,14 @@
   font-family: "Roboto", sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
 
+.playwrite-ng-modern {
+  font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Adjust this value as needed, e.g., 100, 200, 300, ..., 900 */
+  font-style: normal;
+}
 
 
 

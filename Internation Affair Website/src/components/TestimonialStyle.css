@@ -1,0 +1,42 @@
+@keyframes hoverAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .hover-button {
+    transition: transform 0.3s ease;
+  }
+  
+  .hover-button:hover {
+    animation: hoverAnimation 0.6s ease-in-out;
+  }
+  
+
+  @keyframes  otherCarouselCard{
+    0% {
+        background-color: red;
+    }
+    25%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: blue;
+    }
+    75%{
+        background-color: aqua;
+    }
+    
+}
+
+
+.disabled-div {
+  pointer-events: none; /* Prevents any interaction */
+  opacity: 0.5; /* Makes the div look disabled */
+}

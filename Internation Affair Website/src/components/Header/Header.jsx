@@ -25,7 +25,7 @@ function Header() {
                 <button onClick={toggleMenu} className="sm:hidden text-white p-2">
                     {showMenu ? <GrClose size={24} /> : <GiHamburgerMenu size={24} />}
                 </button>
-                <img src="https://iiitd.ac.in/sites/default/files/style3colorsmall.png" className="absolute h-14 w-17 left-20" alt="" />
+                <img src="https://iiitd.ac.in/sites/default/files/images/logo/style3singlecolorsmall.png" className="absolute h-14 w-17 left-20" alt="" />
                 <nav className={`border-cyan-800 text-xs ${showMenu ? 'flex' : 'hidden'} sm:flex flex-col sm:flex-row justify-between  items-center gap-2 font-semibold absolute sm:relative top-14 sm:top-0 left-0 w-full sm:w-auto bg-gray-900 sm:bg-transparent`}>
                     <NavLink to="/home" href="#" onMouseEnter={() => setHomeOpen(false)} onMouseLeave={() => setHomeOpen(false)} className="h-10 py-2 border-cyan-500 font-normal hover-underline-animation relative text-xl z-10 px-2 transition-all duration-300">
                         Home
