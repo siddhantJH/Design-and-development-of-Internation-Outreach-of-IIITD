@@ -1,0 +1,37 @@
+### Capstone Project Weekly Update Report
+
+Student Name: Siddhant  
+Registration Number: MT23097  
+Date: [Insert Date]
+
+#### Detailed Progress Report
+
+1. **Creation of Header and Footer**
+   - **Objective:** Consistent navigation and branding across all web pages.
+   - **Tasks Completed:** Designed a responsive header with the college logo, navigation menu, and a login button; developed a footer with contact information, social media links, and quick access links.
+
+2. **Addition of Home Page**
+   - **Objective:** Create an engaging and informative landing page.
+   - **Tasks Completed:** Designed home page layout with welcome messages, highlights, and featured content; integrated a dynamic carousel for announcements and events.
+
+3. **Development of Testimonial and About Us Sections**
+   - **Objective:** Build credibility and provide detailed college information.
+   - **Tasks Completed:** Created testimonial section with feedback from students and alumni; developed About Us section detailing the college's history, mission, and values.
+
+
+4. **Introduction of an Introductory Video for the College**
+   - **Objective:** Provide a visually appealing introduction to the college.
+   - **Tasks Completed:** Sourced and embedded a high-quality video showcasing the campus, facilities, and student life.
+
+5. **Routing Configuration for Pages**
+   - **Objective:** Ensure smooth navigation and access to different sections.
+   - **Tasks Completed:** Configured routes for home page, About Us, Testimonial section, and other key pages; implemented navigation logic.
+
+6. **Implementation of Login Functionality**
+   - **Objective:** Enable secure access and user-specific interactions.
+   - **Tasks Completed:** Developed registration system requiring sign-up for application access; implemented secure authentication; ensured secure user data storage.
+
+#### Conclusion
+Significant progress was made this week in enhancing the website's structure, functionality, and user experience. The newly added features improve navigation, access to information, and security. The next steps involve further testing, optimization, and additional functionalities as planned.
+
+**Prepared by:** Siddhant  

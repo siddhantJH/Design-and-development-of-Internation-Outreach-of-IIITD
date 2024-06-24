@@ -83,11 +83,11 @@
 .hover-underline-animation::after {
   content: '';
   position: absolute;
-  width: 100%;
-  transform: scaleY(0);
+  width: 80%;
+  transform: scaleX(0);
   height: 4px;
   bottom: 0;
-  left: 0;
+  left: 10%;
   background-color: rgb(112, 194, 231);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
@@ -109,7 +109,7 @@
 .hover-dropdown::after {
   content: '';
   position: absolute;
-  width: 100%;
+  width: 90%;
   transform: scaleX(0);
   height: 4px;
   bottom: 0;

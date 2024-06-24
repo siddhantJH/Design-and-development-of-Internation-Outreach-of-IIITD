@@ -1,0 +1,181 @@
+/* Enhanced CSS with transitions and animations */
+
+.container-1 {
+    height: auto;
+    width: 100%;
+    background-image: url('https://iiitd.ac.in/gallery/assets/img/Institute/institute18-3.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Text color, adjust as needed */
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    transition: background 0.5s ease-in-out;
+}
+
+.content-1 {
+    width: 40%;
+    height: inherit;
+}
+
+.head-1 {
+    padding: 20px;
+    font-size: 35px;
+    background-color: rgba(240, 248, 255, 0.9);
+    border-radius: 25px;
+    color: black;
+    font-weight: 300;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.head-1:hover {
+    transform: scale(1.05);
+    background-color: rgba(240, 248, 255, 1);
+}
+
+.button-1 {
+    width: 20%;
+    padding: 10px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-1:hover {
+    background: rgba(255, 255, 255, 0.8);
+    transform: scale(1.05);
+}
+
+
+.container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url("C:/Users/SIDHANT/Desktop/Design and development of Internation Outreach/Internation Affair Website/src/assets/9157633.png");
+    background-size: cover; /* This will ensure the background image covers the entire container */
+    justify-content: center;
+    color: rgb(0, 0, 0); /* Text color, adjust as needed */
+    text-align: center;
+    background-color: rgb(147, 253, 253);
+    transition: background-color 0.5s ease-in-out;
+}
+
+
+.content-2 {
+    font-size: 95px;
+    font-weight: 500;
+    margin-top: 10%;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.container-3 {
+    background-color: aqua;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: left;
+    padding: 20px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.content-3 {
+    font-size: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-us {
+    font-weight: 500;
+    text-align: right;
+    margin-right: 20%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-left: 45%;
+}
+
+.icon_link {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.icon_link:hover {
+    filter: brightness(150%);
+    transform: scale(1.1);
+}
+
+.container-4 {
+    background-color: white;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    font-size: 95px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.5s ease-in-out;
+}
+
+.content-4 {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.button-2 {
+    width: 20%;
+    font-size: 16px;
+    padding: 10px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-2:hover {
+    background: rgba(231, 231, 231, 0.8);
+    transform: scale(1.05);
+}
+
+.container-5 {
+    background-color: aqua;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: left;
+    padding: 10px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.content-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    size: 10%;
+    padding: 10px;
+    opacity: 0;
+    animation: fadeIn 1s forwards 0.5s;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}

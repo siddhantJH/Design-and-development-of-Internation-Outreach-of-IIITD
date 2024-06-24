@@ -1,8 +1,9 @@
 import React from "react";
 import hd from '../assets/sampleunsplash.jpg';
 import '../index.css'; // Make sure to import your custom CSS
-import Testimonial15 from "../components/Testimonials";
 import PlayerComponent from "../components/VideoPlayer";
+import Testimonials from "../components/Testimonials";
+
 
 function Home() {
     return (
@@ -17,7 +18,7 @@ function Home() {
             </div>
             {/* About Us section */}
             <div style={{ backgroundColor: "#022742" }} className="w-screen h-128">
-                <div style={{ backgroundColor: "#022742" }} className="grid place-items-center w-screen bg-blue h-16 py-7 z-index-10">
+                <div style={{ backgroundColor: "#022742" }} className="grid place-items-center w-screen bg-blue h-20 py-7 z-index-10">
                     <div className="flex items-center text-white space-x-2">
                         <span>Explore IIITD</span>
                         <button className="hover:translate-y-[-5px]">
@@ -56,7 +57,7 @@ function Home() {
             {/* Testimonial section */}
             <div>
                 {/* Add your testimonial component here */}
-                <Testimonial15 />
+                <Testimonials/>
             </div>
         </>
     );

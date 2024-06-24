@@ -15,22 +15,22 @@ export function Footer() {
           <div className="w-auto p-8">
             <ul className="-m-5 flex flex-wrap items-center">
               <li className="p-5">
-                <a className="font-normal hover:text-cyan-500 text-xs text-gray-600 " href="#">
+                <a className="font-normal hover:text-cyan-500 text-md text-gray-600 " href="#">
                   Join IIITD
                 </a>
               </li>
               <li className="p-5">
-                <a className="font-normal hover:text-cyan-500 text-xs text-gray-600 " href="#">
+                <a className="font-normal hover:text-cyan-500 text-md text-gray-600 " href="#">
                   Visitors Resource
                 </a>
               </li>
               <li className="p-5">
-                <a className="font-normal hover:text-cyan-500 text-xs text-gray-600 " href="#">
+                <a className="font-normal hover:text-cyan-500 text-md text-gray-600 " href="#">
                   Community
                 </a>
               </li>
               <li className="p-5">
-                <a className="font-normal hover:text-cyan-500 text-xs text-gray-600 " href="#">
+                <a className="font-normal hover:text-cyan-500 text-md text-gray-600 " href="#">
                  Important Links
                 </a>
               </li>
