@@ -10,6 +10,7 @@ import JointDegreeProgramme from "../Pages/JointDegreeProgramme";
 import OutgoingSemExc from "../Pages/OutgoingSemExc";
 import VlsiSummerSchool from "../Pages/VlsiSummerSchool";
 import Layout from "./Layout";
+import Login from "../Pages/Login";
 
 export {
     Header,
@@ -24,6 +25,7 @@ export {
     OutgoingSemExc,
     VlsiSummerSchool,
     Layout,
+    Login,
 }
 
 

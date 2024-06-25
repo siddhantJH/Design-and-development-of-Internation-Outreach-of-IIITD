@@ -1,0 +1,100 @@
+
+.Application-header {
+    font-size: 0.75rem; 
+    justify-content: space-around;
+  width: 100vw; 
+  height: 5rem; 
+  gap: 2rem;
+  border: 1px solid #38b2ac; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: flex-start;
+  border-bottom-width: 4px;
+  background-color: #ffffff;
+
+}
+.pageinfo {
+    height: 3rem;   
+    border-left-width: 2px;
+  padding-top: 0.5rem; 
+  padding-bottom: 0.25rem; 
+  border-color: #38b2ac; 
+  font-weight:500;
+  font-size: 1.5rem;  
+  position: relative; 
+  z-index: 10; 
+  background-color: inherit;
+  padding-left: 1.25rem; 
+  padding-right: 0.5rem; 
+  transition-property: all; 
+  transition-duration: 0.3s; 
+}
+
+.login-form {
+    width: 600px;  
+  margin: 0 auto; 
+  padding: 30px;
+  margin-top: 75px;
+  background-color: #022742;
+  justify-content:flex;
+  border-radius: 15px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 2);
+  opacity: 0.9;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  transition-duration: 0.3s;
+}
+
+
+.login-form .input-field {
+    display: flex;
+}
+
+.login-form .input-field .Icon {
+    width: 50px;
+    height: 50px;
+}
+
+.login-form .login {
+  width: 100%;
+  padding: 10px;
+  background: white;
+  color : #25BFD9;
+  border: 2px solid black;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-form .login:hover {
+    background: rgba(255, 255, 255, 0.598);
+}
+
+.login-form .password-reset{
+    color : #25BFD9;
+    margin: auto;
+
+}
+.login-form .password-reset:hover {
+    text-decoration: underline;
+}
+
+.login-form .create-account {
+    margin-top: 12px;
+    padding: 12px;
+    color : #25BFD9;
+}
+
+.login-form .create-account:hover {
+    text-decoration: underline;
+}

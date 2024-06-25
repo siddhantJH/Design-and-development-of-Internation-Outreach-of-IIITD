@@ -5,6 +5,7 @@ import './index.css'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import { Layout ,DesignSummerSchool} from './components/index.js'
 import Home from './Pages/Home.jsx'
+import {Login} from './components/index.js'
 
 
 const router=createBrowserRouter(
@@ -12,6 +13,7 @@ const router=createBrowserRouter(
     <Route path='/' element={<Layout/>}>
           <Route path='/home' element={<Home/>}/>
           <Route path='/summer-program' element={<DesignSummerSchool/>}/>
+          <Route path='/login' element={<Login/>}/>
 
     </Route>
   )

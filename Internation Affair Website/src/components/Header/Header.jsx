@@ -17,6 +17,7 @@ function Header() {
     const [campusOpen, setCampusOpen] = useState(false);
     const [studOpen, setStudOpen] = useState(false);
     const [contactOpen, setContactOpen] = useState(false);
+    const [isLoggedIn,setIsLoggedIn]=useState(false)
 
     const toggleMenu = () => setShowMenu(!showMenu);
     return (
@@ -35,7 +36,7 @@ function Header() {
                         International Admission
                         <InternationalAdmissionDropdown isOpen={intOpen} />
                     </a>
-                    <a href="#" onMouseEnter={() => setSchOpen(true)} onMouseLeave={() => setSchOpen(false)} className="h-10 py-2 border-cyan-500 font-normal hover-underline-animation text-xl relative z-10 bg-gray-white px-2 transition-all duration-300">
+                    <a href="#" onMouseEnter={() => setSchOpen(true)} onMouseLeave={() => setSchOpen(false)} className="h-10 py-2 border-cyan-500 hover-underline-animation font-normal text-xl relative z-10 bg-gray-white px-2 transition-all duration-300">
                         Scholarship
                         <ScholarshipDropdown isOpen={schOpen} />
                     </a>
@@ -60,6 +61,10 @@ function Header() {
                         <Contact isOpen={contactOpen} />
                     </a>
                 </nav>
+                {/* login and signup div */}
+                <div>
+                  
+                </div>
                 <Search/>
             </header>
         </>
